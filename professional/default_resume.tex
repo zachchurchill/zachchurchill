@@ -1,0 +1,184 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{babel}
+
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{lgrey}{gray}{0.6} % gray stands for the grey scale
+\definecolor{dgrey}{gray}{0.4}
+\definecolor{lblue}{RGB}{79,129,189}
+
+% Define commands
+
+% hspace
+\newcommand{\tab}[1][1cm]{\hspace*{#1}}
+
+% Section Header
+\newcommand{\header}[1]{
+    \vspace*{-2mm}
+    \rule{6.5in}{3pt} \\
+    \smallskip
+    \begin{large}
+	    \textsc{\textcolor{lblue}{#1}}
+    \end{large}
+    \bigskip
+}
+
+% Company Name, Location, Start, End
+\newcommand{\company}[4]{
+    \textsc{\textbf{#1}} \tab \small {#2} \hfill \small {#3 {-} #4} \\
+    \medskip
+}
+
+% Job Title, Start, End, Technologies used
+\newcommand{\position}[4]{
+    \tab[0.5cm] \textbf{#1} \hfill {\footnotesize #2 {-} #3 \par}
+    \tab[1cm] \textit{Technology Used:} #4 \\
+    \vspace*{0.5mm}
+}
+
+% Description
+\newcommand{\bulletpoint}[1]{
+  \begin{hyphenrules}{nohyphenation}
+  	\hangindent=1.5cm \rightskip=2.35cm \tab[1.1cm] $\bullet$#1 \\
+  \end{hyphenrules}
+  \medskip
+}
+
+\begin{document}
+  \pagestyle{empty} % Removes page numbers
+  % Name and contact information.
+  \flushleft{\huge{\textbf{\textcolor{lgrey}{Zachary A.} \textcolor{dgrey}{Churchill}}} 
+             \hfill \footnotesize{jobs.eel683@passmail.net}}
+
+  % Summary
+  \begin{flushleft}
+    \header{SUMMARY}
+
+    \tab Resourceful Data Scientist with 7 years of hands-on experience spanning from \\
+    \tab initial analytics to advanced Machine Learning operations (MLOps). Proficient in \\
+    \tab Python, R, and SQL, I've driven business insights and engineered custom pipelines \\
+    \tab for deploying complex data models. Eager to expand my software engineering \\
+    \tab capabilities, I am keen to evolve into a full-fledged Machine Learning Engineer. \\
+
+    \smallskip
+  \end{flushleft}
+  
+  % Education
+  \begin{flushleft}
+    \header{EDUCATION}
+
+    \textbf{Bachelor of Science in Mathematical Statistics,} \hfill Ohio University, Athens OH \\
+    \textbf{Minor in Economics}
+
+    \tab[0.5cm] Overall G.P.A:  3.82 / 4.00 \tab[0.25cm] \textit{Magna Cum Laude} \\
+    \tab[0.5cm] \hspace*{2.08mm}Major G.P.A: 3.98 / 4.00  \hfill \small{*Diploma Conferred on Dec 10th, 2016}
+
+    \smallskip
+  \end{flushleft}
+
+  % Work Experience
+  \begin{flushleft}
+    \header{PROFESSIONAL EXPERIENCE}
+
+    \company{American Electric Power}{Columbus OH}{Oct 2022}{Current}
+    
+    \position{Principal Data Analyst (Tech Business Analyst Prin)}{Oct 2022}{Current}{Python, R, SQL, PowerBI, git}
+    \bulletpoint{
+    	Lead top-of-the-funnel analytics, bridging gaps through cross-team collaboration and
+	swift data insights. Piloted data-driven initiatives like preventive maintenance analysis
+	to optimize break-fix costs and offer timely support for the Operations and Performance
+	Transformation team on enterprise projects.
+    }
+    \bulletpoint{
+    	Champion AEP's understanding and application of Generative AI (GenAI). Delivered a
+	comprehensive presentation on its potential uses, nuances like prompt engineering, and the
+	imperative of data privacy.
+    }
+    \bulletpoint{
+    	Offer expertise in MLOps from a software engineering perspective through code reviews,
+	best practice recommendations, and solution brainstorming alongside solution engineers and data scientists.
+    }
+    \bulletpoint{
+        TODO around GenAI platform and specific MLOps example around Vision ML pipelines in
+        AWS SageMaker for wind turbine blade defect detection (utilized Ground Truth, fine-tuned
+        AWS-provided segmentation models and created pipelines to fine-tine custom Pytorch
+        scripts).
+    }
+    \medskip
+
+    \company{State of Ohio - MHAS}{Columbus OH}{Mar 2022}{Sept 2022}
+    
+    \position{Data Scientist (Software Development Specialist 4)}{Mar 2022}{Sept 2022}{Python, SQL, PowerBI}
+    \bulletpoint{
+    	Spearheaded an in-depth analysis of the Grants and Funding Management System. This initiative led
+	to the development of a preliminary PowerBI dashboard, offering crucial insights into grant allocations.
+	This tool was designed to transparently showcase the value of grant distributions to Ohio residents.
+    }
+
+    \newpage
+
+    \company{Root Insurance}{Columbus OH}{Feb 2019}{Feb 2022}
+
+    \position{Data Analyst II - LTV Analytics}{Oct 2021}{Feb 2022}{SQL, R, Tableau, Mode Analytics, git}
+    \bulletpoint{
+	Deliver pivotal analytics support for external business inquiries centered on customer lifetime
+	value (LTV) metrics. Actively design a series of executive dashboards to assess the accuracy
+	and consistency of the model-generated LTV metrics.
+    }
+
+    \medskip
+
+    \position{Software Engineer I, II - Data Science Engineering}{Mar 2020}{Sept 2021}{Python, AWS, Docker, git, BuildKite, Terraform}
+    \bulletpoint{
+	Sustained and enhanced the customer lifetime value prediction process by crafting internal
+	packages and templates, enabling data scientists to streamline machine learning model
+	deployments within AWS SageMaker.
+    }
+    \bulletpoint{
+    	Guided the development of SageMaker Endpoint APIs and serverless infrastructure,
+	strategically transitioning the user telematics score computations away from a Ruby on Rails application.
+    }
+
+    \medskip
+
+    \position{Senior Product Analyst - Mobile App Conversion}{Feb 2019}{Feb 2020}{R, SQL, Python, AWS, Docker, git, Tableau}
+    \bulletpoint{
+	Established the foundational daily customer lifetime value prediction process leveraging AWS
+	SageMaker, Lambda, and an internal data extraction tool. Initially designed for the growth marketing
+	team, this tool became integral to the company's overarching decision-making framework.
+    }
+    \bulletpoint{
+	Directed the analysis for pivotal A/B tests within the mobile app experience and pioneered
+	the standardization of conversion A/B test analyses. Crafted an R package to facilitate a Bayesian
+	analysis, streamlining the generation of consistent report outcomes for analysts.
+    }
+
+    \medskip
+
+
+    \company{American Electric Power}{Columbus OH}{Jan 2017}{Feb 2019}
+    
+    \position{CHARGE Solutions Consultant}{Nov 2018}{Feb 2019}{Java, JavaScript, HTML, CSS, SmartSheet}
+    \bulletpoint{
+	Collaborated with multiple business units on targeted projects to enhance workflow efficiency
+	using SmartSheet. Simultaneously underwent training in web and mobile app development technologies.
+    }
+    \medskip
+
+    \position{Associated Data Scientist}{Jan 2017}{Oct 2018}{Python, R, Oracle, Linux, Docker, git}
+    \bulletpoint{
+    	Designed and implemented a daily statistical process for quality control, automating the prediction
+	and cataloging of potential errors in transmission data for over 600 commercial customers.
+	Complemented this with an Oracle APEX dashboard, streamlining the team's workflow and
+	enabling efficient note-taking on predictions.
+    }
+    \bulletpoint{
+    	Engineered a comprehensive data analysis tool alongside a discrete-event simulation program,
+	offering insights into the annualized cost implications of varied predictive maintenance inspection
+	strategies at the Amos power plant.
+    }
+    \medskip
+  \end{flushleft}
+  
+
+\end{document}
