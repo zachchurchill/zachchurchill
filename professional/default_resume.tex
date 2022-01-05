@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{bold-extra}
+\usepackage{babel}
 
 \usepackage[usenames, dvipsnames]{color}
 \definecolor{lgrey}{gray}{0.6} % gray stands for the grey scale
@@ -20,13 +21,13 @@
     \begin{large}
 	    \textsc{\textcolor{lblue}{#1}}
     \end{large}
-    \medskip
+    \bigskip
 }
 
 % Company Name, Location, Start, End
 \newcommand{\company}[4]{
     \textsc{\textbf{#1}} \tab \small {#2} \hfill \small {#3 {-} #4} \\
-    \smallskip
+    \medskip
 }
 
 % Job Title, Start, End, Technologies used
@@ -38,8 +39,10 @@
 
 % Description
 \newcommand{\bulletpoint}[1]{
-  \hangindent=1.8cm \tab[1.3cm] $\bullet$#1 \\
-  \vspace*{0.5mm}
+  \begin{hyphenrules}{nohyphenation}
+  	\hangindent=1.8cm \rightskip=2.5cm \tab[1.3cm] $\bullet$#1 \\
+  \end{hyphenrules}
+  \medskip
 }
 
 \begin{document}
@@ -56,6 +59,19 @@
     \tab on building custom analytics solutions. Well-versed in Python, R, and SQL, \\
     \tab and always eager to learn more about underlying business processes in order \\
     \tab to create meaningful solutions to business problems. \\
+
+    \smallskip
+  \end{flushleft}
+  
+  % Education
+  \begin{flushleft}
+    \header{EDUCATION}
+
+    \textbf{Bachelor of Science in Mathematical Statistics,} \hfill Ohio University, Athens OH \\
+    \textbf{Minor in Economics}
+
+    \tab[0.5cm] Overall G.P.A:  3.82 / 4.00 \tab[0.25cm] \textit{Magna Cum Laude} \\
+    \tab[0.5cm] \hspace*{2.08mm}Major G.P.A: 3.98 / 4.00  \hfill \small{*Diploma Conferred on Dec 10th, 2016}
 
     \smallskip
   \end{flushleft}
@@ -106,6 +122,7 @@
     }
     \medskip
 
+
     \company{American Electric Power}{Columbus OH}{Jan 2017}{Feb 2019}
     
     \position{CHARGE Solutions Consultant}{Nov 2018}{Feb 2019}{Java, JavaScript, HTML, CSS, SmartSheet}
@@ -133,19 +150,6 @@
 	where we typically had between 5 and 10 people attend each month.
    }
     \medskip
-  \end{flushleft}
-
-  % Education
-  \begin{flushleft}
-    \header{EDUCATION}
-
-    \textbf{Bachelor of Science in Mathematical Statistics,} \hfill Ohio University, Athens OH \\
-    \textbf{Minor in Economics}
-
-    \tab[0.5cm] Overall G.P.A:  3.82 / 4.00 \tab[0.25cm] \textit{Magna Cum Laude} \\
-    \tab[0.5cm] \hspace*{2.08mm}Major G.P.A: 3.98 / 4.00  \hfill \small{*Diploma Conferred on Dec 10th, 2016}
-
-    \smallskip
   \end{flushleft}
   
 
