@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{lgrey}{gray}{0.6} % gray stands for the grey scale
+\definecolor{dgrey}{gray}{0.4}
+\definecolor{lblue}{RGB}{79,129,189}
+
+% Define commands for tab and a formatted section header
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\newcommand\header[1][Section Header]{
+    \vspace*{-2mm}
+    \rule{6.5in}{3pt} \\
+    \smallskip
+    \begin{large}
+	    \textsc{\textcolor{lblue}{#1}}
+    \end{large}
+    \medskip
+}
+
+
+\begin{document}
+  \pagestyle{empty} % Removes page numbers
+  % Name and contact information.
+  \flushleft{\huge{\textbf{\textcolor{lgrey}{Zachary A.} \textcolor{dgrey}{Churchill}}} 
+             \hfill \footnotesize{zachurchill@protonmail.com {\textbar} 740.919.1467}}
+
+  % Summary
+  \begin{flushleft}
+    \header[SUMMARY]
+
+    \smallskip
+  \end{flushleft}
+
+  % Work Experience
+  \begin{flushleft}
+    \header[PROFESSIONAL EXPERIENCE]
+
+    \textbf{Data Analyst II} \tab[.25cm] \textit{Root Insurance} \tab[.15cm] \small {Columbus OH} \hfill \small {October, 2021} \\
+    \tab[0.5cm] \textit{Technology Used:} SQL, R, Tableau, Mode Analytics, git \hfill \small {{-} Current} \\
+
+    % Bullet #1
+    \tab $\bullet$ Stuff \\
+    \vspace*{0.5mm}
+
+    % Bullet #2
+    \tab $\bullet$ More stuff \\
+    \medskip
+
+    \textbf{Software Engineer I, II} \tab[.25cm] \textit{Root Insurance} \tab[.15cm] \small {Columbus OH} \hfill \small {March, 2020} \\
+    \tab[0.5cm] \textit{Technology Used:} Python, AWS, Docker, git, BuildKite, Terraform \hfill \small {{-} September, 2021} \\
+
+    % Bullet #1
+    \tab $\bullet$ Provided continued support for the customer lifetime value prediction \\
+    \tab[1.25cm] process, and helped create internal packages and templates for data scientists \\
+    \tab[1.25cm] to use for easier machine learning model deployment in AWS SageMaker. \\
+    \vspace*{0.5mm}
+
+    % Bullet #2
+    \tab $\bullet$ Worked on developing SageMaker Endpoint APIs and serverless infrastructure \\
+    \tab[1.25cm] to transition the scoring of users' telematics scores out of a Ruby on Rails app. \\
+    \medskip
+
+    \textbf{Senior Product Analyst} \tab[.25cm] \textit{Root Insurance} \tab[.15cm] \small{Columbus OH}  \hfill \small{February, 2019} \\
+    \tab[0.5cm] \textit{Technology Used:} R, SQL, Python, AWS, Docker, git, Tableau \hfill \small{{-} March 2020} \\
+
+    % Bullet #1
+    \tab $\bullet$ Set up the initial daily customer lifetime value prediction process \\
+    \tab[1.25cm] using AWS SageMaker, Lambda, and an internal data extraction tool. These \\
+    \tab[1.25cm] results, while originally for the growth marketing team, became a staple \\
+    \tab[1.25cm] in the company's overall decision making process.
+    \vspace*{0.5mm}
+
+    % Bullet #2
+    \tab $\bullet$ Led the analysis for several meaningful A/B tests in the mobile app \\
+    \tab[1.25cm] experience, including: the efficacy of providing easy access to phone support \\
+    \tab[1.25cm] during key points in the customer journey, and the improvement to several \\
+    \tab[1.25cm] business metrics by allowing customer choice to affect their product experience. \\
+    \vspace*{0.5mm}
+
+    % Bullet #3
+    \tab $\bullet$ Worked to standardize the analysis of conversion A/B tests by creating \\
+    \tab[1.25cm] an R package that provides analysts an abstraction for conducting a Bayesian \\
+    \tab[1.25cm] analysis and produces a standardized report of the results. \\
+    \medskip
+
+    \textbf{Associate Data Scientist} \tab[.25cm] \textit{American Electric Power} \tab[.15cm] \small{Columbus OH} \hfill {January, 2017} \\
+    \tab[0.5cm] \textit{Technology Used:} Python, R, Oracle, Linux, Docker, git \hfill \small{{-} October, 2018} \\
+
+    % Bullet #1
+    \tab $\bullet$ Created a daily statistical process for a quality control team that \\
+    \tab[1.25cm] automated the prediction and cataloguing of potential errors in transmission data \\
+    \tab[1.25cm] for 750 large commercial customers. Additionally, a dashboard created with Oracle \\
+    \tab[1.25cm] APEX provided the team with a workflow to view and post notes about the predictions. \\
+    \vspace*{0.5mm}
+
+    % Bullet #2
+    \tab $\bullet$ Developed a data analysis tool and discrete-event simulation program \\
+    \tab[1.25cm] that provided the ability to analyze the expected annualized costs for \\
+    \tab[1.25cm] various predictive maintenance inspection regimens of the Amos power plant. \\
+    \vspace*{0.5mm}
+
+    % Bullet #3
+    \tab $\bullet$ Co-led an internal monthly meet-up around the uses of Python and R for \\
+    \tab[1.25cm] analytics, where we typically had between 5 and 10 people each month. \\
+    \medskip
+
+    \smallskip
+  \end{flushleft}
+
+  % Education
+  \begin{flushleft}
+    \header[EDUCATION]
+
+    \textbf{Bachelor of Science in Mathematical Statistics,} \hfill Ohio University, Athens OH \\
+    \textbf{Minor in Economics}
+
+    \tab[0.5cm] Overall G.P.A:  3.82 / 4.00 \tab[0.25cm] \textit{Magna Cum Laude} \\
+    \tab[0.5cm] \hspace*{2.08mm}Major G.P.A: 3.98 / 4.00  \hfill \small{*Diploma Conferred on Dec 10th, 2016}
+
+    \smallskip
+  \end{flushleft}
+  
+
+\end{document}
