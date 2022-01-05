@@ -7,10 +7,13 @@
 \definecolor{dgrey}{gray}{0.4}
 \definecolor{lblue}{RGB}{79,129,189}
 
-% Define commands for tab and a formatted section header
-\newcommand\tab[1][1cm]{\hspace*{#1}}
+% Define commands
 
-\newcommand\header[1][Section Header]{
+% hspace
+\newcommand{\tab}[1][1cm]{\hspace*{#1}}
+
+% Section Header
+\newcommand{\header}[1]{
     \vspace*{-2mm}
     \rule{6.5in}{3pt} \\
     \smallskip
@@ -20,6 +23,24 @@
     \medskip
 }
 
+% Company Name, Location, Start, End
+\newcommand{\company}[4]{
+    \textsc{\textbf{#1}} \tab \small {#2} \hfill \small {#3 {-} #4} \\
+    \smallskip
+}
+
+% Job Title, Start, End, Technologies used
+\newcommand{\position}[4]{
+    \tab \textbf{#1} \hfill {\footnotesize #2 {-} #3 \par}
+    \tab[1.25cm] \textit{Technology Used:} #4 \\
+    \vspace*{0.5mm}
+}
+
+% Description
+\newcommand{\bulletpoint}[1]{
+  \hangindent=1.8cm \tab[1.3cm] $\bullet$#1 \\
+  \vspace*{0.5mm}
+}
 
 \begin{document}
   \pagestyle{empty} % Removes page numbers
@@ -29,7 +50,7 @@
 
   % Summary
   \begin{flushleft}
-    \header[SUMMARY]
+    \header{SUMMARY}
 
     \tab Highly adaptable analytics professional with 5 years of experience focusing \\
     \tab on building custom analytics solutions. Well-versed in Python, R, and SQL, \\
@@ -41,102 +62,82 @@
 
   % Work Experience
   \begin{flushleft}
-    \header[PROFESSIONAL EXPERIENCE]
+    \header{PROFESSIONAL EXPERIENCE}
 
-    \textsc{\textbf{Root Insurance}} \tab \small {Columbus OH} \hfill \small {Feb 2019 - Current} \\
-    \smallskip
+    \company{Root Insurance}{Columbus OH}{Feb 2019}{Current}
 
-    \tab \textbf{Data Analyst II - LTV Analytics} \hfill {\footnotesize Oct 2021 {-} Current \par}
-    \tab[1.25cm] \textit{Technology Used:} SQL, R, Tableau, Mode Analytics, git \\
-    \vspace*{0.5mm}
-
-    % Bullet #1
-    \tab[1.25cm] $\bullet$ Provide analytics support for outside business requests on customer \\
-    \tab[1.6cm] lifetime value related (LTV) metrics, and in the midst of designing a suite \\
-    \tab[1.6cm] of executive-facing dashboards that provide insight into the validity \\
-    \tab[1.6cm] and stability of our model produced LTV metrics.
+    \position{Data Analyst II - LTV Analytics}{Oct 2021}{Current}{SQL, R, Tableau, Mode Analytics, git}
+    \bulletpoint{
+    	Provide analytics support for outside business requests on customer
+	lifetime value related (LTV) metrics, and in the midst of designing a suite
+	of executive-facing dashboards that provide insight into the validity and
+	stability of our model produced LTV metrics.
+    }
     \medskip
 
-    \tab \textbf{Software Engineer I, II - Data Science Engineering} \hfill {\footnotesize Mar 2020 - Sept 2021 \par}
-    \tab[1.25cm] \textit{Technology Used:} Python, AWS, Docker, git, BuildKite, Terraform \\
-    \vspace*{0.5mm}
-
-    % Bullet #1
-    \tab[1.25cm] $\bullet$ Provided continued support for the customer lifetime value prediction \\
-    \tab[1.6cm] process, and helped create internal packages and templates for data scientists \\
-    \tab[1.6cm] to use for easier machine learning model deployment in AWS SageMaker. \\
-    \vspace*{0.5mm}
-
-    % Bullet #2
-    \tab[1.25cm] $\bullet$ Worked on developing SageMaker Endpoint APIs and serverless infrastructure \\
-    \tab[1.6cm] to transition the scoring of users' telematics scores out of a Ruby on Rails app. \\
+    \position{Software Engineer I, II - Data Science Engineering}{Mar 2020}{Sept 2021}{Python, AWS, Docker, git, BuildKite, Terraform}
+    \bulletpoint{
+    	Provided continued support for the customer lifetime value prediction process,
+	and helped create internal packages and templates for data scientists for easier
+	machine learning model deployment in AWS SageMaker.
+    }
+    \bulletpoint{
+    	Worked on developing SageMaker Endpoint APIs and serverless infrastructure
+	to transition the scoring of users' telematics scores out of a Ruby on Rails app.
+    }
     \medskip
 
-    \tab \textbf{Senior Product Analyst - Mobile App Conversion} \hfill {\footnotesize Feb 2019 - Feb 2020 \par}
-    \tab[1.25cm] \textit{Technology Used:} R, SQL, Python, AWS, Docker, git, Tableau \\
-    \vspace*{0.5mm}
-
-    % Bullet #1
-    \tab[1.25cm] $\bullet$ Set up the initial daily customer lifetime value prediction process \\
-    \tab[1.6cm] using AWS SageMaker, Lambda, and an internal data extraction tool. These \\
-    \tab[1.6cm] results, while originally for the growth marketing team, became a staple \\
-    \tab[1.6cm] in the company's overall decision making process.
-    \vspace*{0.5mm}
-
-    % Bullet #2
-    \tab[1.25cm] $\bullet$ Led the analysis for several meaningful A/B tests in the mobile app \\
-    \tab[1.6cm] experience, including: the efficacy of providing easy access to phone support \\
-    \tab[1.6cm] during key points in the customer journey, and the improvement to several \\
-    \tab[1.6cm] business metrics by allowing customer choice to affect their product experience. \\
-    \vspace*{0.5mm}
-
-    % Bullet #3
-    \tab[1.24cm] $\bullet$ Worked to standardize the analysis of conversion A/B tests by creating \\
-    \tab[1.6cm] an R package that provides analysts an abstraction for conducting a Bayesian \\
-    \tab[1.6cm] analysis and produces a standardized report of the results. \\
+    \position{Senior Product Analyst - Mobile App Conversion}{Feb 2019}{Feb 2020}{R, SQL, Python, AWS, Docker, git, Tableau}
+    \bulletpoint{
+    	Set up the initial daily customer lifetime value prediction process using AWS SageMaker,
+	Lambda, and an internal data extraction tool. These results, while originally for the growth
+	marketing team, became a staple in the company's overall decision making process.
+    }
+    \bulletpoint{
+    	Led the analysis for several meaningful A/B tests in the mobile app experience, including:
+	the efficacy of providing easy access to phone support during key points in the customer
+	journey, and the improvement to several business metrics by allowing customer choice
+	to affect their product experience.
+    }
+    \bulletpoint{
+    	Worked to standardize the analysis of conversion A/B tests by creating an R package
+	that provided analysts an abstraction for conducting a Bayesian analysis and producing
+	a standardized report of results.
+    }
     \medskip
 
-    \textsc{\textbf{American Electric Power}} \tab \small {Columbus OH} \hfill \small {Jan 2017 - Feb 2019} \\
-    \smallskip
-
-    \tab \textbf{Solutions Consultant} \hfill {\footnotesize Nov 2018 - Feb 2019 \par}
-    \tab[1.25cm] \textit{Technology Used:} Java, JavaScript, HTML, CSS, SmartSheet \\
-    \vspace*{0.5mm}
-
-    % Bullet #1
-    \tab[1.25cm] $\bullet$ Worked closely with various business units on quick, micro-projects \\
-    \tab[1.6cm] to increase efficiency in their workflows while training in technologies for \\
-    \tab[1.6cm] both web and mobile app development. \\
+    \company{American Electric Power}{Columbus OH}{Jan 2017}{Feb 2019}
+    
+    \position{CHARGE Solutions Consultant}{Nov 2018}{Feb 2019}{Java, JavaScript, HTML, CSS, SmartSheet}
+    \bulletpoint{
+    	Worked closely with various business units on micro-projects to increase efficiency
+	in their workflows by incorporating SmartSheet while training in technologies for both
+	web and mobile app development.
+    }
     \medskip
 
-    \tab \textbf{Associate Data Scientist} \hfill {\footnotesize Jan 2017 - Oct 2018 \par}
-    \tab[1.25cm] \textit{Technology Used:} Python, R, Oracle, Linux, Docker, git \\
-    \vspace*{0.5mm}
-
-    % Bullet #1
-    \tab[1.25cm] $\bullet$ Created a daily statistical process for a quality control team that \\
-    \tab[1.6cm] automated the prediction and cataloguing of potential errors in transmission data \\
-    \tab[1.6cm] for 750 large commercial customers. Additionally, a dashboard created with Oracle \\
-    \tab[1.6cm] APEX provided the team with a workflow to view and post notes about the predictions. \\
-    \vspace*{0.5mm}
-
-    % Bullet #2
-    \tab[1.25cm] $\bullet$ Developed a data analysis tool and discrete-event simulation program \\
-    \tab[1.6cm] that provided the ability to analyze the expected annualized costs for \\
-    \tab[1.6cm] various predictive maintenance inspection regimens of the Amos power plant. \\
-    \vspace*{0.5mm}
-
-    % Bullet #3
-    \tab[1.25cm] $\bullet$ Co-led an internal monthly meet-up around the uses of Python and R for \\
-    \tab[1.6cm] analytics, where we typically had between 5 and 10 people each month. \\
+    \position{Associated Data Scientist}{Jan 2017}{Oct 2018}{Python, R, Oracle, Linux, Docker, git}
+    \bulletpoint{
+    	Created a daily statistical process for a quality control team that automated the prediction
+	and cataloguing of potential errors in transmission data for 600 large commercial customers.
+	Additionally created a dashboard with Oracle APEX that provided the team with a workflow
+	to view and post notes about the predictions.
+    }
+    \bulletpoint{
+    	Developed a data analysis tool and discrete-event simulation program that provided the
+	ability to analyze the expected annualized costs for various predictive maintenance
+	inspection regimens of the Amos power plant.
+    }
+    \bulletpoint{
+    	Co-led an internal monthly meet-up around the uses of Python and R for analytics,
+	where we typically had between 5 and 10 people attend each month.
+   }
     \medskip
-
-    \smallskip
   \end{flushleft}
 
   % Education
   \begin{flushleft}
-    \header[EDUCATION]
+    \header{EDUCATION}
 
     \textbf{Bachelor of Science in Mathematical Statistics,} \hfill Ohio University, Athens OH \\
     \textbf{Minor in Economics}
