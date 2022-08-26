@@ -1,0 +1,2 @@
+- Decoy Pinot Noir 2020 (California)
+- Belle Glos 'Clark & Telephone' Pinot Noir Santa Maria 2020 (California)
