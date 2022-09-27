@@ -7,4 +7,5 @@
 |Valley Vineyards|Honey Mead|Traditional with clover honey|
 |Dansk Mjød|Viking Blod|"Nordic honey wine with hibicus and hops added"|
 |Crafted Artisan Meadery|Dragon Heart|apple cider, cherry and raspberry. Wildflower honey|
+|Crafted Artisan Meadery|Stranger Binds|"Bing Cherry, Graham Cracker Crust, Vanilla"|
 |Silver Hand Meadery|Colonial Williamsburg Mead|barrel-aged, Virginia wildflower honey|
