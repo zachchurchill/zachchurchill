@@ -9,6 +9,7 @@
 |California Gold|"Dry traditional with Mendocino Forest honey aged on American oak"|
 |Honey Oak|"Ohio wildflower honey traditional mead aged on French and American Oak. Pronounced honey nose. Flavors of caramel and woodiness are enhance by the oak."|
 |Blackjack|"Crafted from locally sourced raw honey and black currant, Blackjack is a 21 on flavor. Our tart and earthy berry brew has full, smooth body from honey. The finish is slightly sweet. Game on."|
+|Passion|"A blend of honey and passion fruit."|
   
   </p>
 </details>
