@@ -7,3 +7,4 @@
 |Frei Brothers|Chardonnay|2019|California, Sonoma County, Russian River Valley|
 |Da Vinci|Chianti|2020|Italy, Chianti region|
 |Chloe|Sauvignon Blanc|2021|New Zealand, Marlborough|
+|Gascón|Malbec|2020|Mendoza, Argentina|
