@@ -9,3 +9,4 @@
 |Chloe|Sauvignon Blanc|2021|New Zealand, Marlborough|
 |Gascón|Malbec|2020|Argentina, Mendoza|
 |Simi|Chardonnay|2020|California, Sonoma County|
+|Antinori|Villa Antinori Toscana|2018|Italy, Tuscany region|
