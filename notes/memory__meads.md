@@ -61,3 +61,14 @@
 
   </p>
 </details>
+
+<details>
+  <summary>Feisty Meadery</summary>
+  <p>
+
+|Mead|Flavors/Tasting Notes|
+|:---|:---|
+|Mesquite Blossom|"Mesquite trees native to the southwest produce long pods of fragrant yellow blossoms. Bees transform the nectar into mesquite honey which gives this mead a floral aroma with hints of pear and peach."|
+    
+  </p>
+</details>
