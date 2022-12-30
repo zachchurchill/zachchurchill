@@ -5,6 +5,7 @@
 |Wine|Vintage|Source|
 |:---|:---|:---|
 |Pinot Noir|2020|California|
+|Chardonnay|2021|California|
     
   </p>
 </details>
