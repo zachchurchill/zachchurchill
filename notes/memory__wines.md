@@ -110,3 +110,13 @@
     
   </p>
 </details>
+<details>
+  <summary>Apothic</summary>
+  <p>
+    
+|Wine|Vintage|Source|
+|:---|:---|:---|
+|Apothic Red - Winemaker's Blend|2020|California|
+    
+  </p>
+</details>
