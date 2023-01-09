@@ -66,7 +66,7 @@
 |Wine|Vintage|Source|
 |:---|:---|:---|
 |Sauvignon Blanc|2021|New Zealand, Marlborough|
-|Prosecco|-|D.O.C., Italy|
+|Prosecco (extra dry)|-|D.O.C., Italy|
     
   </p>
 </details>
@@ -117,6 +117,16 @@
 |Wine|Vintage|Source|
 |:---|:---|:---|
 |Apothic Red - Winemaker's Blend|2020|California|
+    
+  </p>
+</details>
+<details>
+  <summary>La Marca</summary>
+  <p>
+    
+|Wine|Vintage|Source|
+|:---|:---|:---|
+|Prosecco (extra dry)|-|D.O.C., Italy|
     
   </p>
 </details>
