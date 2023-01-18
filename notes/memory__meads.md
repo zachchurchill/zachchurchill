@@ -12,6 +12,7 @@
 |Passion|"A blend of honey and passion fruit."|
 |Julien's Pyment|"A genius is born! Our mead master, Julian, has taken bold first steps into grape fermentation with this tasty riff on the pyment style - honey blended with Concord grapes and blueberries. Enjoy!"|
 |Gravenstein|"A dry slightly carbonated and sour cyser from Gravenstein varietal apples from Sonoma and wildflower honey from Mendocino."|
+|Wild Ohio|"Wild Ohio is mead in its most traditional form. Just local raw wildflower honey, water and yeast are blended and fermented. Sugar removed during fermentation leaves only flavors of honey wine with a semi-dry finish."|
   
   </p>
 </details>
