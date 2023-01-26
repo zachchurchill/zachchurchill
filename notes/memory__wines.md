@@ -130,3 +130,13 @@
     
   </p>
 </details>
+<details>
+  <summary>Charles Smith Wines</summary>
+  <p>
+    
+|Wine|Vintage|Source|
+|:---|:---|:---|
+|Kungfu Girl (Riesling)|2021|Washington, Columbia Valley|
+    
+  </p>
+</details>
