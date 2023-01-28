@@ -10,9 +10,11 @@
 |Honey Oak|"Ohio wildflower honey traditional mead aged on French and American Oak. Pronounced honey nose. Flavors of caramel and woodiness are enhance by the oak."|
 |Blackjack|"Crafted from locally sourced raw honey and black currant, Blackjack is a 21 on flavor. Our tart and earthy berry brew has full, smooth body from honey. The finish is slightly sweet. Game on."|
 |Passion|"A blend of honey and passion fruit."|
-|Julien's Pyment|"A genius is born! Our mead master, Julian, has taken bold first steps into grape fermentation with this tasty riff on the pyment style - honey blended with Concord grapes and blueberries. Enjoy!"|
+|Julien's Pyment|"A genius is born! Our mead master, Julian, has taken bold first steps into grape fermentation with this tasty riff on the pyment style - honey blended with Concord grapes and blueberries: Sweet"|
 |Gravenstein|"A dry slightly carbonated and sour cyser from Gravenstein varietal apples from Sonoma and wildflower honey from Mendocino."|
 |Wild Ohio|"Wild Ohio is mead in its most traditional form. Just local raw wildflower honey, water and yeast are blended and fermented. Sugar removed during fermentation leaves only flavors of honey wine with a semi-dry finish."|
+|Bourban Apple Pie|"Our apple pie mead aged for 12 months in Middle West Bourbon Barrels : Sweet"|
+|Orange Blossom|"Traditional dry mead from citrus tree honey : Dry"|
   
   </p>
 </details>
@@ -25,6 +27,7 @@
 |:---|:---|
 |Dragon Heart|apple cider, cherry and raspberry. Wildflower honey|
 |Stranger Bings|"Bing Cherry, Graham Cracker Crust, Vanilla"|
+|The Dispear|"Sweet Pear Juice, Honey and Fresh Cardamom Spice"|
 
   </p>
 </details>
