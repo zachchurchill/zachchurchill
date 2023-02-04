@@ -28,7 +28,7 @@
 |Dragon Heart|apple cider, cherry and raspberry. Wildflower honey|
 |Stranger Bings|"Bing Cherry, Graham Cracker Crust, Vanilla"|
 |The Dispear|"Sweet Pear Juice, Honey and Fresh Cardamom Spice"|
-|Mystic Currants||
+|Mystic Currants|"Tart dark fruit with balanced sweetness. Piney juniper berry aroma with similar notes that are well incorporated on finish and throughout."|
 
   </p>
 </details>
