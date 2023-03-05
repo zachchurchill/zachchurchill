@@ -91,3 +91,13 @@
   </p>
 </details>
  
+<details>
+  <summary>Dutch Creek Winery</summary>
+  <p>
+    
+|Mead|Flavors/Tasting Notes|
+|:---|:---|
+|Royal Affair|"A tantalizing tongue-tingling combination of tea and citrus, this honey wine starts with fresh brewed Earl Grey tea and is combined with local honey to create a very unique honey wine that has the fruity and floral smell of bergamot and the zing of fresh tea."|
+    
+  </p>
+</details>
