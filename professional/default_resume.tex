@@ -32,15 +32,15 @@
 
 % Job Title, Start, End, Technologies used
 \newcommand{\position}[4]{
-    \tab \textbf{#1} \hfill {\footnotesize #2 {-} #3 \par}
-    \tab[1.25cm] \textit{Technology Used:} #4 \\
+    \tab[0.5cm] \textbf{#1} \hfill {\footnotesize #2 {-} #3 \par}
+    \tab[1cm] \textit{Technology Used:} #4 \\
     \vspace*{0.5mm}
 }
 
 % Description
 \newcommand{\bulletpoint}[1]{
   \begin{hyphenrules}{nohyphenation}
-  	\hangindent=1.8cm \rightskip=2.5cm \tab[1.3cm] $\bullet$#1 \\
+  	\hangindent=1.5cm \rightskip=2.35cm \tab[1.1cm] $\bullet$#1 \\
   \end{hyphenrules}
   \medskip
 }
@@ -55,11 +55,11 @@
   \begin{flushleft}
     \header{SUMMARY}
 
-    \tab Highly adaptable and resourceful analytics professional with 5 years of \\
-    \tab experience focused on building custom analytics solutions and providing \\
-    \tab actionable insights. I am well-versed in Python, R, and SQL; always eager \\
-    \tab to learn more about underlying business processes in order to create \\
-    \tab meaningful solutions; and ... \\
+    \tab Resourceful Data Scientist with 7 years of hands-on experience spanning from \\
+    \tab initial analytics to advanced Machine Learning operations (MLOps). Proficient in \\
+    \tab Python, R, and SQL, I've driven business insights and engineered custom pipelines \\
+    \tab for deploying complex data models. Eager to expand my software engineering \\
+    \tab capabilities, I am keen to evolve into a full-fledged Machine Learning Engineer. \\
 
     \smallskip
   \end{flushleft}
@@ -81,46 +81,73 @@
   \begin{flushleft}
     \header{PROFESSIONAL EXPERIENCE}
 
-    \company{Root Insurance}{Columbus OH}{Feb 2019}{Current}
-
-    \position{Data Analyst II - LTV Analytics}{Oct 2021}{Current}{SQL, R, Tableau, Mode Analytics, git}
+    \company{American Electric Power}{Columbus OH}{Oct 2022}{Current}
+    
+    \position{Principal Data Analyst (Tech Business Analyst Prin)}{Oct 2022}{Current}{Python, R, SQL, PowerBI, git}
     \bulletpoint{
-    	Provide analytics support for outside business requests on customer
-	lifetime value related (LTV) metrics, and in the midst of designing a suite
-	of executive-facing dashboards that provide insight into the validity and
-	stability of our model produced LTV metrics.
+    	Lead top-of-the-funnel analytics, bridging gaps through cross-team collaboration and
+	swift data insights. Piloted data-driven initiatives like preventive maintenance analysis
+	to optimize break-fix costs and offer timely support for the Operations and Performance
+	Transformation team on enterprise projects.
     }
+    \bulletpoint{
+    	Champion AEP's understanding and application of Generative AI (GenAI). Delivered a
+	comprehensive presentation on its potential uses, nuances like prompt engineering, and the
+	imperative of data privacy.
+    }
+    \bulletpoint{
+    	Offer expertise in MLOps from a software engineering perspective through code reviews,
+	best practice recommendations, and strategic solution brainstorming alongside solution engineers and data scientists.
+    }
+    \medskip
+
+    \company{State of Ohio - MHAS}{Columbus OH}{Mar 2022}{Sept 2022}
+    
+    \position{Software Development Specialist 4 (Data Scientist)}{Mar 2022}{Sept 2022}{Python, SQL, PowerBI}
+    \bulletpoint{
+    	Spearheaded an in-depth analysis of the Grants and Funding Management System. This initiative led
+	to the development of a preliminary PowerBI dashboard, offering crucial insights into grant allocations.
+	This tool was designed to transparently showcase the value of grant distributions to Ohio residents.
+    }
+
+    \newpage
+
+    \company{Root Insurance}{Columbus OH}{Feb 2019}{Feb 2022}
+
+    \position{Data Analyst II - LTV Analytics}{Oct 2021}{Feb 2022}{SQL, R, Tableau, Mode Analytics, git}
+    \bulletpoint{
+	Deliver pivotal analytics support for external business inquiries centered on customer lifetime
+	value (LTV) metrics. Actively design a series of executive dashboards to assess the accuracy
+	and consistency of the model-generated LTV metrics.
+    }
+
     \medskip
 
     \position{Software Engineer I, II - Data Science Engineering}{Mar 2020}{Sept 2021}{Python, AWS, Docker, git, BuildKite, Terraform}
     \bulletpoint{
-    	Provided continued support for the customer lifetime value prediction process,
-	and helped create internal packages and templates for data scientists for easier
-	machine learning model deployment in AWS SageMaker.
+	Sustained and enhanced the customer lifetime value prediction process by crafting internal
+	packages and templates, enabling data scientists to streamline machine learning model
+	deployments within AWS SageMaker.
     }
     \bulletpoint{
-    	Worked on developing SageMaker Endpoint APIs and serverless infrastructure
-	to transition the scoring of users' telematics scores out of a Ruby on Rails app.
+    	Guided the development of SageMaker Endpoint APIs and serverless infrastructure,
+	strategically transitioning the user telematics score computations away from a Ruby on Rails application.
     }
+
     \medskip
 
     \position{Senior Product Analyst - Mobile App Conversion}{Feb 2019}{Feb 2020}{R, SQL, Python, AWS, Docker, git, Tableau}
     \bulletpoint{
-    	Set up the initial daily customer lifetime value prediction process using AWS SageMaker,
-	Lambda, and an internal data extraction tool. These results, while originally for the growth
-	marketing team, became a staple in the company's overall decision making process.
+	Established the foundational daily customer lifetime value prediction process leveraging AWS
+	SageMaker, Lambda, and an internal data extraction tool. Initially designed for the growth marketing
+	team, this tool became integral to the company's overarching decision-making framework.
     }
     \bulletpoint{
-    	Led the analysis for several meaningful A/B tests in the mobile app experience, including:
-	the efficacy of providing easy access to phone support during key points in the customer
-	journey, and the improvement to several business metrics by allowing customer choice
-	to affect their product experience.
+	Directed the analysis for pivotal A/B tests within the mobile app experience and pioneered
+	the standardization of conversion A/B test analyses. Crafted an R package to facilitate a Bayesian
+	analysis, streamlining the generation of consistent report outcomes for analysts.
     }
-    \bulletpoint{
-    	Worked to standardize the analysis of conversion A/B tests by creating an R package
-	that provided analysts an abstraction for conducting a Bayesian analysis and producing
-	a standardized report of results.
-    }
+
     \medskip
 
 
@@ -128,28 +155,23 @@
     
     \position{CHARGE Solutions Consultant}{Nov 2018}{Feb 2019}{Java, JavaScript, HTML, CSS, SmartSheet}
     \bulletpoint{
-    	Worked closely with various business units on micro-projects to increase efficiency
-	in their workflows by incorporating SmartSheet while training in technologies for both
-	web and mobile app development.
+	Collaborated with multiple business units on targeted projects to enhance workflow efficiency
+	using SmartSheet. Simultaneously underwent training in web and mobile app development technologies.
     }
     \medskip
 
     \position{Associated Data Scientist}{Jan 2017}{Oct 2018}{Python, R, Oracle, Linux, Docker, git}
     \bulletpoint{
-    	Created a daily statistical process for a quality control team that automated the prediction
-	and cataloguing of potential errors in transmission data for 600 large commercial customers.
-	Additionally created a dashboard with Oracle APEX that provided the team with a workflow
-	to view and post notes about the predictions.
+    	Designed and implemented a daily statistical process for quality control, automating the prediction
+	and cataloging of potential errors in transmission data for over 600 commercial customers.
+	Complemented this with an Oracle APEX dashboard, streamlining the team's workflow and
+	enabling efficient note-taking on predictions.
     }
     \bulletpoint{
-    	Developed a data analysis tool and discrete-event simulation program that provided the
-	ability to analyze the expected annualized costs for various predictive maintenance
-	inspection regimens of the Amos power plant.
+    	Engineered a comprehensive data analysis tool alongside a discrete-event simulation program,
+	offering insights into the annualized cost implications of varied predictive maintenance inspection
+	strategies at the Amos power plant.
     }
-    \bulletpoint{
-    	Co-led an internal monthly meet-up around the uses of Python and R for analytics,
-	where we typically had between 5 and 10 people attend each month.
-   }
     \medskip
   \end{flushleft}
   
