@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Check out my GitHub Pages website at [zachchurchill.github.io/](https://zachchurchill.github.io/)
+Check out my website (hosted via GitHub Pages) at [zachurchill.com](https://www.zachurchill.com)
 
 <!--
 **zachurchill-root/zachurchill-root** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
